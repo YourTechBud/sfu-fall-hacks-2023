@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node.js",
+  "compilerOptions": {
+    "target": "es2016",
+    "allowJs": true,
+    "incremental": false,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "commonjs",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "composite": false,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": false,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules"]
+}
